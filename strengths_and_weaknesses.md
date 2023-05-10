@@ -6,5 +6,7 @@ Speed and Performance: Git is designed to be fast and efficient, even with large
 ## weaknesses
 Difficult to Recover Lost Commits: If a developer accidentally deletes a commit, it can be difficult to recover it. Git's "garbage collection" feature removes commits that are not referenced by any branch or tag, making it easy to lose commits if they are not properly saved.
 
+2- Binary File Management: Git is designed primarily for text-based source code, and it can be challenging to manage binary files such as images, videos, and binary data. Git stores binary files as blobs, which can make repositories larger and slower to download and clone.
+
 
 
